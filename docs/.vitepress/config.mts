@@ -2,27 +2,22 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Lollipop",
-  description: "A VitePress Site",
+  title: "🍭",
+  description: "🍭的笔记",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '笔记', link: '/notes' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '博客的搭建',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'vitepress', link: '/notes' }
         ]
       }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   }
 })

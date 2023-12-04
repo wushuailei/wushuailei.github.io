@@ -3,23 +3,13 @@
 layout: home
 
 hero:
-  name: "Lollipop"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "好好学习"
+  text: "棒棒糖的笔记"
+  # tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 笔记
+      link: /notes
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
