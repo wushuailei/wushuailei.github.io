@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 笔记
-      link: /notes
+      link: /blogBuilding/vitepress
 
 ---
 
