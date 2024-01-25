@@ -11,8 +11,9 @@ export default defineConfig({
       {
         text: "笔记",
         items: [
-          { text: "博客的搭建", link: "/blogBuilding/vitepress" },
+          { text: "博客的搭建", link: "/blog-building/vitepress" },
           { text: "前端", link: "/frontend/css" },
+          { text: "Electron", link: "/electron/password-management-tool" },
         ],
       },
     ],
@@ -20,7 +21,7 @@ export default defineConfig({
     sidebar: [
       {
         text: "博客的搭建",
-        items: [{ text: "vitepress", link: "/blogBuilding/vitepress" }],
+        items: [{ text: "vitepress", link: "/blog-building/vitepress" }],
       },
       {
         text: "前端",
@@ -32,6 +33,11 @@ export default defineConfig({
           },
         ],
       },
+      // {
+      //   text: 'Electron',
+      //   items: [
+      //   ]
+      // }
       // {
       //   text: '服务器',
       //   items: [

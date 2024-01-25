@@ -23,3 +23,33 @@
     text-overflow: ellipsis;  /* 规定当文本溢出时显示省略符号来代表被修剪的文本 */
 }
 ```
+
+## CSS 英文、中文强制换行与不换行的代码
+
+1. word-break:break-all; 只对英文起作用，以字母作为换行依据
+2. word-wrap:break-word; 只对英文起作用，以单词作为换行依据
+3. white-space:pre-wrap; 只对中文起作用，强制换行
+4. white-space:nowrap; 强制不换行，都起作用
+5. white-space:nowrap; overflow:hidden; text-overflow:ellipsis; 不换行，超出部分隐藏且以省略号形式出现
+
+```css
+/* 实例 */
+.p1{ word-break:break-all; width:150px;}
+.p2{ word-wrap:break-word; width:150px;}
+.p3{white-space:pre-wrap; width:150px;}
+.p4{white-space:nowrap; width:10px;}
+.p5{white-space:nowrap; overflow:hidden; text-overflow:ellipsis; width:100px;}
+```
+
+::: warning
+注意：一定要指定容器的宽度(width)，否则没用。
+:::
+
+word-break 语法  
+`word-break : normal | break-all | keep-all`  
+
+参数：
+
+* normal : 依照亚洲语言和非亚洲语言的文本规则，允许在字内换行
+* break-all : 该行为与亚洲语言的normal相同。也允许非亚洲语言文本行的任意字内断开。该值适合包含一些非亚洲文本的亚洲文本
+* keep-all : 与所有非亚洲语言的normal相同。对于中文，韩文，日文，不允许字断开。适合包含少量亚洲文本的非亚洲文本
