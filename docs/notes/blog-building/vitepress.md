@@ -176,7 +176,7 @@
 2. 创建仓库
     `创建一个名为 <username>.github.io 的仓库`
 
-    ![Alt text](../public/image.png)
+    ![Alt text](../../public/image.png)
 
 3. 在本地的 VitePress 站点文件夹下执行以下命令
 
@@ -197,8 +197,8 @@
 
 4. 进入github仓库的settings 并点击进入Pages页面
 
-   ![Alt text](../public/image-1.png)
+   ![Alt text](../../public/image-1.png)
 
 5. 点击Source选项 选择GitHub Actions
 
-   ![Alt text](../public/image-2.png)
+   ![Alt text](../../public/image-2.png)
