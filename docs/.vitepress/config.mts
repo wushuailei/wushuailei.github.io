@@ -11,9 +11,9 @@ export default defineConfig({
       {
         text: "笔记",
         items: [
-          { text: "博客的搭建", link: "/blog-building/vitepress" },
-          { text: "前端", link: "/frontend/css" },
-          { text: "Electron", link: "/electron/password-management-tool" },
+          { text: "博客的搭建", link: "/notes/blog-building/vitepress" },
+          { text: "Electron", link: "/notes/electron/electron" },
+          { text: "CSS", link: "/notes/css" },
         ],
       },
     ],
@@ -21,29 +21,48 @@ export default defineConfig({
     sidebar: [
       {
         text: "博客的搭建",
-        items: [{ text: "vitepress", link: "/blog-building/vitepress" }],
+        items: [{ text: "vitepress", link: "/notes/blog-building/vitepress" }],
       },
       {
-        text: "前端",
-        items: [
-          {
-            text: "css",
-            link: "/frontend/css",
-            items: [{ text: "图形", link: "/frontend/css/graph" }],
-          },
-        ],
+        text: "Electron",
+        items: [{ text: "electron", link: "/notes/electron/electron" }],
       },
-      // {
-      //   text: 'Electron',
-      //   items: [
-      //   ]
-      // }
+      {
+        text: "CSS",
+        link: "/notes/css/index",
+        items: [{ text: "图形", link: "/notes/css/graph" }],
+      },
+      {
+        text: 'Windows',
+        items: [
+          { text: 'nvm', link: '/notes/windows/nvm' },
+          { text: 'windows环境，解决VSCode的终端不是管理员权限打开的问题', link: '/notes/windows/powerShell01' }
+        ]
+      },
+      {
+        text: 'NPM',
+        items: [
+          { text: 'command', link: '/notes/npm/command' }
+        ]
+      }
       // {
       //   text: '服务器',
       //   items: [
       //     { text: 'jenkins', link: '/server/jenkins' }
       //   ]
       // }
+      // {
+      //   text: "javascript",
+      //   link: "/notes/javascript",
+      //   items: [],
+      // },
+      // {
+      //   text: 'es6+',
+      //   link: '/notes/es6+/gai-lan',
+      //   items: [
+      //     { text: '概览', link: '/notes/es6+/gai-lan' },
+      //   ]
+      // },
     ],
   },
 });

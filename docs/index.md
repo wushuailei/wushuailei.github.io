@@ -9,7 +9,11 @@ hero:
   actions:
     - theme: brand
       text: 笔记
-      link: /blog-building/vitepress
-
+      link: /notes/blog-building/vitepress
+features:
+  - title: 博客的搭建
+    details: VitePress + GitHub Pages
+    link: /notes/blog-building/vitepress
+    linkText: 了解更多
 ---
 
