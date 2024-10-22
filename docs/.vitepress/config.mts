@@ -4,6 +4,9 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "🍭",
   description: "🍭的笔记",
+  head: [
+    ['link', { rel: 'icon', href: '/lollipop.png' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
